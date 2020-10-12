@@ -1,0 +1,8 @@
+.body {
+  background-color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: teal;
+}
