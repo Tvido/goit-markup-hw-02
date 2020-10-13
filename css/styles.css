@@ -1,8 +1,21 @@
-.body {
-  background-color: #fff;
-}
+/* кольори:
+фон
+#E5E5E5
 
-.nav-link:hover,
-.nav-link:focus {
-  color: teal;
+основний коліт тексту/навігація
+#212121
+
+додатковий колір тексту
+#757575;
+
+ховер навігації
+#2196F3
+
+актив/акцент
+rgba(0, 0, 0, 0.15)
+*/
+
+.body {
+  background-color: #e5e5e5;
+  color: #212121;
 }
