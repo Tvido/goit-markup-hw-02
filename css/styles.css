@@ -1,21 +1,43 @@
-/* кольори:
-фон
-#E5E5E5
+:root {
+  /* фон */
+  --background-color: #e5e5e5;
+  /* первинний коліт тексту/навігація */
+  --primary-text-color: #212121;
+  /* основний коліт тексту/навігація */
+  --title-text-color: #212121;
+  /* додатковий коліт тексту */
+  --secondary-text-color: #757575;
+  /* ховер для кнопок і навігації */
+  --hover: #2196f3;
+  /* основний колір кнопок */
+  /* --primary-bg-color: #757575; */
+  --primary-bg-color: #2196f3;
+}
 
-основний коліт тексту/навігація
-#212121
-
-додатковий колір тексту
-#757575;
-
-ховер навігації
-#2196F3
-
-актив/акцент
-rgba(0, 0, 0, 0.15)
-*/
-
+/* Body */
 .body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: var(--title-text-color);
+}
+
+/* Навігація */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-bg-color);
+}
+
+.site-nav .link.current {
+  color: var(--primary-bg-color);
+}
+
+/* Кнопки */
+.btn {
+  color: var(--title-text-color);
+  background-color: var(--background-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #e5e5e5;
+  background-color: var(--primary-bg-color);
 }
