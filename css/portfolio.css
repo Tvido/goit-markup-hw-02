@@ -96,7 +96,7 @@
 }
 
 /* Кнопки */
-.btn {
+.cargo .btn {
   font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--background-color);
